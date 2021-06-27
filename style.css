@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+.About_img {
+    min-width: 100%;
+    max-height: 280px;
+}
+
+.about-text {
+    font-size: 18px;
+}
+
+.margin-top {
+    /* padding: px;00 */
+    margin-top: 25px;
+}
+
+
+/* 
+.effect {
+    
+} */
+
+.effect:hover {
+    background: #FAEBEB;
+    border-radius: 25px 5px;
+    ;
+    /* width: 100%; */
+}
+
+.services .row>* {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+
+.card {
+    width: 95%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem !important;
+}
+
+.bg {
+    background: #F7EDED;
+}
+
+.bg-color {
+    background: #a6dcef;
+}
+
+footer {
+    background: #536b49;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a:hover {
+    color: aqua;
+}
+
+
+/* .btn-center {
+    text-align: center;
+} */
+
+
+/* @media screen and (min-width: 768px) {
+    .card-body {
+        padding: -1rem 1rem;
+    }
+} */
